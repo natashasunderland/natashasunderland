@@ -370,6 +370,25 @@
     transform: translateY(-3px);
   }
 
+  .portfolio-card a.card-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--teal-mid);
+    text-decoration: none;
+    border-bottom: 1px solid var(--teal-light);
+    padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .portfolio-card a.card-link:hover {
+    color: var(--teal-deep);
+    border-color: var(--teal-mid);
+  }
+
   .portfolio-card.teal { border-top-color: var(--teal-mid); }
   .portfolio-card.blue { border-top-color: var(--blue-mid); }
   .portfolio-card.slate { border-top-color: var(--slate-mid); }
@@ -683,49 +702,56 @@
 
 <!-- PORTFOLIO -->
 <section class="portfolio" id="portfolio">
-  <p class="section-label">Selected work</p>
-  <h2 class="section-title">Formats, clients, and impact</h2>
+  <h2 class="section-title">Selected work</h2>
 
   <div class="portfolio-grid">
     <div class="portfolio-card teal">
       <p class="portfolio-type">Career sites — Creative lead, writer, video</p>
       <h3 class="portfolio-client">Intuitive — Da Vinci 5</h3>
       <p class="portfolio-desc">Teams Behind Da Vinci 5 microsite showcasing the people and engineering behind a landmark surgical robotics product launch.</p>
+      <a href="https://careers.intuitive.com/en/product-teams/" class="card-link" target="_blank">View project ↗</a>
     </div>
     <div class="portfolio-card teal">
       <p class="portfolio-type">Career sites — Creative lead, writer, video</p>
       <h3 class="portfolio-client">Intuitive — Ion Software</h3>
       <p class="portfolio-desc">Ion Software Careers site with full creative lead, writing, and video production spanning engineering and clinical culture stories.</p>
+      <a href="https://careers.intuitive.com/en/career-opportunities/engineering/ion-software-engineering/" class="card-link" target="_blank">View project ↗</a>
     </div>
     <div class="portfolio-card teal">
       <p class="portfolio-type">Career sites — Creative lead, editor</p>
       <h3 class="portfolio-client">TravisMathew</h3>
       <p class="portfolio-desc">Careers site creative direction and editorial strategy bringing brand voice into the recruiting experience.</p>
+      <a href="https://careers.travismathew.com/" class="card-link" target="_blank">View project ↗</a>
     </div>
     <div class="portfolio-card blue">
       <p class="portfolio-type">Video — Creative direction, interviews</p>
       <h3 class="portfolio-client">Intuitive — Women in Tech &amp; Sales</h3>
       <p class="portfolio-desc">Led the full shoot, creative directed and conducted all on-camera interviews for a video series spotlighting women in technical and commercial roles.</p>
+      <a href="https://www.youtube.com/watch?v=Hcjf4sPCmM0&list=PL7wqFBnQgum6lomuXI2NzfNSM3pXFYs9-&index=92" class="card-link" target="_blank">Watch video ↗</a>
     </div>
     <div class="portfolio-card blue">
       <p class="portfolio-type">Video — Collaboration, production</p>
       <h3 class="portfolio-client">Intuitive — More than a Job</h3>
       <p class="portfolio-desc">Collaborated with video vendor on a multi-episode series exploring what makes careers at Intuitive meaningful and distinctive.</p>
+      <a href="https://careers.intuitive.com/en/who-we-are/mission-impact/" class="card-link" target="_blank">View project ↗</a>
     </div>
     <div class="portfolio-card slate">
       <p class="portfolio-type">Blogs &amp; editorial</p>
       <h3 class="portfolio-client">Mozilla, Atlassian, Danaher</h3>
       <p class="portfolio-desc">Edited and creative directed dozens of employee story blog posts for Job Portraits' roster of enterprise clients.</p>
+      <a href="https://drive.google.com/drive/folders/10178ZZV8J-li8yUK2MKYu4zMqABDrXGM?usp=drive_link" class="card-link" target="_blank">View samples ↗</a>
     </div>
     <div class="portfolio-card slate">
       <p class="portfolio-type">Social media — Content &amp; advocacy</p>
-      <h3 class="portfolio-client">Intuitive Careers &amp; Culture</h3>
+      <h3 class="portfolio-client">Intuitive Social Media</h3>
       <p class="portfolio-desc">Managed LinkedIn content for Intuitive's careers, culture, and I&amp;D channels, including content for the employee advocacy program.</p>
+      <a href="https://www.linkedin.com/posts/weareintuitive-share-7376601350664556545-LJGH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAmVAFYBnizKG1FaeAIkiEzL2xdBIjdp8b0" class="card-link" target="_blank">View example ↗</a>
     </div>
     <div class="portfolio-card teal">
       <p class="portfolio-type">Career sites — Creative lead, writer</p>
       <h3 class="portfolio-client">Intuitive — Multiport Engineering</h3>
       <p class="portfolio-desc">Full creative lead, writing, and video production for a dedicated engineering careers hub within Intuitive's broader talent brand.</p>
+      <a href="https://careers.intuitive.com/en/career-opportunities/engineering/multiport-engineering/" class="card-link" target="_blank">View project ↗</a>
     </div>
   </div>
 </section>
@@ -797,8 +823,8 @@
   <h2 class="section-title">Open to new opportunities</h2>
   <p>Currently seeking roles in content strategy, creative direction, program management, storytelling, writing, and editing. Based in Eugene, OR — open to remote.</p>
   <div class="contact-links">
-    <a href="mailto:natasha@example.com" class="contact-link">Send an email</a>
-    <a href="https://linkedin.com/in/natashasunderland" class="contact-link secondary" target="_blank">LinkedIn</a>
+    <a href="mailto:natasha.sunderland@gmail.com" class="contact-link">Send an email</a>
+    <a href="https://www.linkedin.com/in/natasha-sunderland-41aa0845/" class="contact-link secondary" target="_blank">LinkedIn</a>
   </div>
   <p style="margin-top:1.5rem; font-size:0.85rem; color:var(--slate-light);">310.993.1929 &nbsp;·&nbsp; Eugene, OR</p>
 </section>
